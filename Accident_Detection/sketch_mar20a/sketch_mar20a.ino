@@ -8,17 +8,17 @@
 
 /* ================= WIFI ================= */
 const char* AP_SSID = "ESP32_CAR";
-const char* AP_PASS = "12345678";
+const char* AP_PASS = "";
 
 const char* WIFI_SSID = "iPhone";
-const char* WIFI_PASS = "1234567890";
+const char* WIFI_PASS = "";
 
-const char* SERVER_URL = "http://172.20.1.20:3000/accident";
+const char* SERVER_URL = "";
 const char* PLATE_NUMBER = "RAB123C";
 
 /* ================= IFTTT ================= */
 const char* IFTTT_EVENT = "car_accident";   // ✅ ADDED
-const char* IFTTT_KEY   = "cmIO5l8nH_xoxCJoGW8Ihg";  // ✅ ADDED
+const char* IFTTT_KEY   = "c";  // ✅ ADDED
 
 WebServer server(80);
 
